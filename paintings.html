@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renaissance Virtual Museum</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: beige;
+        color: #5c4529;
+      }
+
+      header {
+        background-color: rgb(66, 49, 35);
+        padding: 1em;
+        text-align: center;
+        color: #ffffffd1;
+        font-size: large;
+      }
+
+      nav {
+        background-color: rgb(103, 78, 71);
+        padding: 0.5em;
+        text-align: center;
+      }
+
+      nav a {
+        margin: 0 1em;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      main {
+        padding: 1em;
+      }
+
+      footer {
+        background-color: #8a7664;
+        padding: 1em;
+        text-align: center;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .image-container-athens h2{
+        position: relative;
+        top: 150px;
+        right: -5px;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Times New Roman', Times, serif ;
+        color: rgb(255, 255, 255);
+      }
+      .image-container-athens {
+            position: relative ;  
+            width: 100%;
+            height: 70vh;
+            background: url('TheSchoolOfAthens.jpeg');
+            background-position: center;
+            background-attachment: fixed;
+            
+        }
+        .image-container-madonna h2{
+        position: relative;
+        top: 150px;
+        right: -5px;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Times New Roman', Times, serif ;
+        color: rgb(255, 255, 255);
+      }
+        .image-container-madonna {
+            position: relative ;  
+            width: 100%;
+            height: 70vh;
+            background: url('MadonnaSixtina.jpeg');
+            background-position: center;
+            background-attachment: fixed;
+            text-align: center;
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif ;
+            color: rgb(73, 61, 47);
+        }
+        .image-container-venus h2{
+        position: relative;
+        top: 150px;
+        right: -5px;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Times New Roman', Times, serif ;
+        color: rgb(255, 255, 255);
+      }
+        .image-container-venus {
+            position: relative ;  
+            width: 100%;
+            height: 100vh;
+            background: url('TheBirthOfVenus.jpeg');
+            background-position: center;
+            background-attachment: fixed;
+            text-align: center;
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif ;
+            color: rgb(73, 61, 47);
+        }
+        .image-container-mona h2{
+        position: relative;
+        top: 150px;
+        right: -5px;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Times New Roman', Times, serif ;
+        color: rgb(255, 255, 255);
+      }
+        .image-container-mona {
+            position: relative ;  
+            width: 100%;
+            height: 100vh;
+            background: url('MonaLisa.jpeg');
+            background-position: center;
+            background-attachment: fixed;
+            text-align: center;
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif ;
+            color: rgb(73, 61, 47);
+        }
+        .image-container-supper h2{
+        position: relative;
+        top: 150px;
+        right: -5px;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Times New Roman', Times, serif ;
+        color: rgb(255, 255, 255);
+      }
+        .image-container-supper {
+            position: relative ;  
+            width: 100%;
+            height: 100vh;
+            background: url('last_supper_da_vinci.jpeg');
+            background-position: center;
+            background-attachment: fixed;
+            text-align: center;
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif ;
+            color: rgb(73, 61, 47);
+        }
+        .image-container-judge h2{
+        position: relative;
+        top: 150px;
+        right: -5px;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Times New Roman', Times, serif ;
+        color: rgb(255, 255, 255);
+      }
+        .image-container-judge {
+            position: relative ;  
+            width: 100%;            
+            height: 100vh;
+            background: url('TheLastJudgement.jpeg');
+            background-position: center;
+            background-attachment: fixed;
+            text-align: center;
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif ;
+            color: rgb(73, 61, 47);
+        }
+        .image-container-adam {
+            position: relative ;  
+            width: 100%;
+            height: 100vh;
+            background: url('CreationOfAdam2.jpg');
+            background-position: center;
+            background-attachment: fixed;
+
+        }
+        .image-container-adam h2{
+        position: relative;
+        top: 150px;
+        right: -5px;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Times New Roman', Times, serif ;
+        color: rgb(255, 255, 255);
+      }
+      .image-container-prime {
+            position: relative ;  
+            width: 100%;
+            height: 100vh;
+            background: url('primavera.jpeg');
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .image-container-prime h2{
+        position: relative;
+        top: 150px;
+        right: -5px;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Times New Roman', Times, serif ;
+        color: rgb(255, 255, 255);
+      }
+      a{
+        color: #5c4529;
+      }
+      a:hover{
+        color: #6c0000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>The Renaissance Era</h1>
+      <h4>A VIRTUAL MUSEUM</h4>
+    </header>
+    <nav>
+      <a href="login.html">Login</a>
+      <a href="home.html">Home</a>
+      <a href="paintings.html">Museum of Paintings</a>
+      <a href="artists.html">Museum of Artists</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <div class="image-container">
+      <h1 align="center">Welcome to the Renaissance Virtual Museum</h1>
+    </div>
+  <a href="The School Of Athens.html">
+    <div class="image-container-athens" id="Renaissance">
+      <h2> THE SCHOOL OF ATHENS </h2>
+    </div>
+  </a>
+  <a href="Sistine Madonna.html">
+    <div class="image-container-madonna" id="Renaissance">
+      <h2>MADONNA SIXTINA</h2>
+    </div>
+  </a>
+  <a href="The Birth of Venus.html">
+    <div class="image-container-venus" id="Renaissance">
+      <h2> THE BIRTH OF VENUS </h2>
+    </div>
+  </a>
+  <a href="Mona Lisa.html">
+    <div class="image-container-mona" id="Renaissance">
+      <h2> THE MONA LISA </h2>
+    </div>
+  </a>
+  <a href="The Last Supper.html">
+    <div class="image-container-supper" id="Renaissance">
+      <h2> THE LAST SUPPER </h2>
+    </div>
+  </a>
+  <a href="The Last Judgement.html">
+    <div class="image-container-judge" id="Renaissance">
+      <h2> THE LAST JUDGMENT </h2>
+    </div>
+  </a>
+  <a href="The Creation of Adam.html">
+    <div class="image-container-adam" id="Renaissance">
+      <h2>THE CREATION OF ADAM</h2>
+    </div>
+  </a>
+<a href="Primevera.html">
+  <div class="image-container-prime" id="Renaissance">
+    <h2>PRIMAVERA</h2>
+  </div>
+</a> 
+
+    <footer>
+      <p>&copy; Created by Aadya Talreja & Anusree Krishnan | All rights are reserved </p>
+    </footer>
+    <script src="paintings.js"> </script>
+  </body>
+</html>

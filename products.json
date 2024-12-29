@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name":"THE LAST SUPPER",
+        "artist": "by Leonardo da Vinci",
+        "price": 200,
+        "image": "last_supper_da_vinci.jpeg"
+    },
+    {
+        "id": 2,
+        "name":"PRIMAVERA",
+        "artist": "by Sandro Botticelli",
+        "price": 250,
+        "image": "primavera.jpeg"
+    },
+    {
+        "id": 3,
+        "name":"CREATION OF ADAM",
+        "artist": "by Michealangelo",
+        "price": 300,
+        "image": "CreationOfAdam.jpeg"
+    },
+    {
+        "id": 4,
+        "name":"MONA LISA",
+        "artist": "by Leonardo da Vinci",
+        "price": 400,
+        "image": "MonaLisa.jpeg"
+    },
+    {
+        "id": 5,
+        "name":"MADONNA SIXTINA",
+        "artist": "by Rafael",
+        "price": 200,
+        "image": "MadonnaSixtina.jpeg"
+    },
+    {
+        "id": 6,
+        "name":"THE LAST JUDGEMENT",
+        "artist": "by Michealangelo",
+        "price": 275,
+        "image": "TheLastJudgement.jpeg"
+    },
+    {
+        "id": 7,
+        "name":"THE BIRTH OF VENUS",
+        "artist": "by Sandro Botticelli",
+        "price": 100,
+        "image": "TheBirthOfVenus.jpeg"
+    },
+    {
+        "id": 8,
+        "name":"THE SCHOOL OF ATHENS",
+        "artist": "by Raffaello Sanzio da Urbino",
+        "price": 300,
+        "image": "TheSchoolOfAthens.jpeg"
+    }
+
+]

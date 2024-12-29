@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renaissance Virtual Museum</title>
+    <link rel="stylesheet" href="shop.style.css">
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: beige;
+        color: #5c4529;
+      }
+      .head {
+        background-color: rgb(66, 49, 35);
+        padding: 1em;
+        text-align: center;
+        color: #ffffffd1;
+        font-size: large;
+      }
+      nav {
+        background-color: rgb(103, 78, 71);
+        padding: 0.5em;
+        text-align: center;
+      }
+      nav a {
+        margin: 0 1em;
+        text-decoration: none;
+        color: #fff;
+      }
+      main {
+        padding: 1em;
+      }
+      footer {
+        background-color: #8a7664;
+        padding: 1em;
+        text-align: center;
+        color: #fff;
+        bottom: 0;
+        width: 100%;
+      }
+  </style>
+  </head>
+  <body class="hideCart">
+    <header class="head">
+      <h1>The Renaissance Era</h1>
+      <h4>A VIRTUAL MUSEUM</h4>
+    </header>
+
+    <nav>
+      <a href="login.html">Login</a>
+      <a href="home.html">Home</a>
+      <a href="paintings.html">Museum of Paintings</a>
+      <a href="artists.html">Museum of Artists</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <header class="header">
+
+            <div class="title">PRODUCT LIST</div>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span>0</span>
+            </div>
+
+        </header>
+
+        <div class="listProduct">
+          <div class="item">
+            <img src="last_supper_da_vinci.jpeg" alt="">
+            <h2> <b> THE LAST SUPPER </b></h2>
+            <h3> by Leonardo da Vinci</h3>
+            <div class="price"> $200</div>
+            <button class="addCart">
+              Add To Cart
+            </button>
+          </div>
+          <div class="item">
+            <img src="primavera.jpeg" alt="">
+            <h2> <b> PRIMAVERA </b></h2>
+            <h3> by Sandro Botticelli</h3>
+            <div class="price"> $250</div>
+            <button class="addCart">
+              Add To Cart
+            </button>
+          </div>
+
+        <div class="item">
+          <img src="CreationOfAdam.jpeg" alt="">
+          <h2> <b> CREATION OF ADAM </b></h2>
+          <h3> by Michealangelo</h3>
+          <div class="price"> $300</div>
+          <button class="addCart">
+            Add To Cart
+          </button>
+        </div>
+
+        <div class="item">
+          <img src="MonaLisa.jpeg" alt="" width="30" height="200">
+          <h2> <b> MONA LISA </b></h2>
+          <h3> by Leonardo da Vinci</h3>
+          <div class="price"> $400</div>
+          <button class="addCart">
+            Add To Cart
+          </button>
+        </div>
+
+        <div class="item">
+          <img src="MadonnaSixtina.jpeg" alt="" width="30" height="200">
+          <h2> <b> MADONNA SIXTINA </b></h2>
+          <h3> by Rafael </h3>
+          <div class="price"> $200</div>
+          <button class="addCart">
+            Add To Cart
+          </button>
+        </div>
+
+        <div class="item">
+          <img src="TheSchoolOfAthens.jpeg" alt="" width="30" height="200">
+          <h2> <b> THE SCHOOL OF ATHENS </b></h2>
+          <h3> by Raffaello Sanzio da Urbino</h3>
+          <div class="price"> $300</div>
+          <button class="addCart">
+            Add To Cart
+          </button>
+        </div>
+
+        <div class="item">
+          <img src="TheBirthOfVenus.jpeg" alt="">
+          <h2> <b> THE BIRTH OF VENUS </b></h2>
+          <h3> by Sandro Botticelli</h3>
+          <div class="price"> $100</div>
+          <button class="addCart">
+            Add To Cart
+          </button>
+        </div>
+
+        <div class="item">
+          <img src="TheLastJudgement.jpeg" alt="" width="35" height="150">
+          <h2> <b> THE LAST JUDGEMENT </b></h2>
+          <h3> by Michealangelo</h3>
+          <div class="price"> $275</div>
+          <button class="addCart">
+            Add To Cart
+          </button>
+        </div>
+       </div>
+   </div>
+
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+            <div class="item">
+              <div class="image">
+                <img src="last_supper_da_vinci.jpeg" alt="">
+              </div>
+              <div class="name">
+                THE LAST SUPPER
+              </div>
+              <div class="totalPrice">
+                $200
+              </div>
+              <div class="quantity">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="primavera.jpeg" alt="">
+              </div>
+              <div class="name">
+                PRIMAVERA
+              </div>
+              <div class="totalPrice">
+                $250
+              </div>
+              <div class="quantity">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="CreationOfAdam.jpeg" alt="">
+              </div>
+              <div class="name">
+                CREATION OF ADAM
+              </div>
+              <div class="totalPrice">
+                $300
+              </div>
+              <div class="quantity">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="MonaLisa.jpeg" alt="">
+              </div>
+              <div class="name">
+                MONA LISA
+              </div>
+              <div class="totalPrice">
+                $400
+              </div>
+              <div class="quantity">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="MadonnaSixtina.jpeg" alt="">
+              </div>
+              <div class="name">
+                MADONNA SIXTINA
+              </div>
+              <div class="totalPrice">
+                $200
+              </div>
+              <div class="quantity">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="TheSchoolOfAthens.jpeg" alt="">
+              </div>
+              <div class="name">
+                THE SCHOOL OF ATHENS
+              </div>
+              <div class="totalPrice">
+                $300
+              </div>
+              <div class="quantity">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="TheBirthOfVenus.jpeg" alt="">
+              </div>
+              <div class="name">
+                THE BIRTH OF VENUS
+              </div>
+              <div class="totalPrice">
+                $100
+              </div>
+              <div class="quantity">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="TheLastJudgement.jpeg" alt="">
+              </div>
+              <div class="name">
+                THE LAST JUDGEMENT
+              </div>
+              <div class="totalPrice">
+                $275
+              </div>
+              <div class="quantity">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+              </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">Check Out</button>
+        </div>
+    </div> 
+    <br>
+    <br>
+    <br> 
+    <footer>
+      <p>&copy; Created by Aadya Talreja & Anusree Krishnan | All rights are reserved</p>
+    </footer>
+    <script src="app.js"></script> 
+  </body>
+</html>

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renaissance Virtual Museum</title>
+    <link rel="stylesheet" href="login.style.css">
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        color: #5c4529;
+        background: url("images/login_background.jpeg");
+      }
+
+      header{
+        background-color: rgb(66, 49, 35);
+        display:grid;
+        padding: 1em;
+        text-align: center;
+        color: #ffffffd1;
+        font-size: large;
+      }
+
+      nav {
+        background-color: rgb(103, 78, 71);
+        padding: 0.5em;
+        text-align: center;
+      }
+
+      nav a {
+        margin: 0 1em;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      main {
+        padding: 1em;
+      }
+
+      footer {
+        background-color: #8a7664;
+        padding: 1em;
+        text-align: center;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bodyHead">
+    <header class="head">
+      <h1>The Renaissance Era</h1>
+      <h4>A VIRTUAL MUSEUM</h4>
+    </header>
+
+    <nav>
+      <a href="login.html">Login</a>
+      <a href="home.html">Home</a>
+      <a href="paintings.html">Museum of Paintings</a>
+      <a href="artists.html">Museum of Artists</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+</div>
+	<!-- container div -->
+<main>
+	<div class="container">
+
+		<!-- upper button section to select
+			the login or signup form -->
+		<div class="slider"></div>
+		<div class="btn">
+			<button class="login">Login</button>
+			<button class="signup">Signup</button>
+		</div>
+
+		<!-- Form section that contains the
+			login and the signup form -->
+		<div class="form-section">
+
+			<!-- login form -->
+			<div class="login-box">
+				<input type="email"
+					class="email ele"
+					placeholder="youremail@email.com">
+				<input type="password"
+					class="password ele"
+					placeholder="password">
+				<button class="clkbtn">Login</button>
+			</div>
+
+			<!-- signup form -->
+			<div class="signup-box">
+				<input type="text"
+					class="name ele"
+					placeholder="enter your name">
+				<input type="email"
+					class="email ele"
+					placeholder="youremail@email.com">
+				<input type="password"
+					class="password ele"
+					placeholder="password">
+				<input type="password"
+					class="password ele"
+					placeholder="confirm password">
+				<button class="clkbtnSign">Signup</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="login.index.js"></script>
+</main>
+    <footer>
+      <p>&copy; Created by Aadya Talreja & Anusree Krishnan | All rights are reserved</p>
+    </footer>
+
+    <script></script>
+  </body>
+</html>
